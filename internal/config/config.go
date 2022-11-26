@@ -37,11 +37,13 @@ func LoadConfiguration() *Config {
 	if err != nil {
 		log.Fatalf("failed to parse config file: %s", filename)
 	}
-	decryptedPass, err := crypto.Decrypt(config.Proxy.Password)
-	if err != nil {
-		log.Fatalf("failed to decrypt password")
+	if config.Proxy != nil && config.Proxy.Password != "" {
+		decryptedPass, err := crypto.Decrypt(config.Proxy.Password)
+		if err != nil {
+			log.Fatalf("failed to decrypt password")
+		}
+		config.Proxy.Password = decryptedPass
 	}
-	config.Proxy.Password = decryptedPass
 	log.Infof("config file loaded")
 	return &config
 }
