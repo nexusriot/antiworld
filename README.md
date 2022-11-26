@@ -5,6 +5,7 @@ Tool for downloading books from _https://fantasy-worlds.org_ website.
 >Made for educational purposes only under MIT license.
 >If you like the book please buy it.
 
+![Demo](antiworld.gif)
 
 Building (linux, static):
 ```
