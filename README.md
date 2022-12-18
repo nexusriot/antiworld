@@ -1,4 +1,4 @@
-# Antiworld3
+# Antiworld
 Tool for downloading books from _https://fantasy-worlds.org_ website.
 
 >**Warning:**
@@ -15,7 +15,7 @@ go build -ldflags "-linkmode external -extldflags -static"
 Building (windows):
 
 ```
-GOOS=windows GOARCH=amd64 go build -o antiworld3.exe
+GOOS=windows GOARCH=amd64 go build -o antiworld.exe
 ```
 
 Configuration file example, use encryptor to get encrypted password.

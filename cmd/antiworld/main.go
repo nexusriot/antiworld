@@ -9,7 +9,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/nexusriot/antiworld3/internal/app"
+	"github.com/nexusriot/antiworld/internal/app"
 )
 
 func main() {

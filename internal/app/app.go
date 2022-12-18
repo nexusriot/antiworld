@@ -14,10 +14,10 @@ import (
 	"github.com/muesli/reflow/indent"
 	log "github.com/sirupsen/logrus"
 
-	cf "github.com/nexusriot/antiworld3/internal/config"
-	"github.com/nexusriot/antiworld3/internal/net"
-	"github.com/nexusriot/antiworld3/internal/processor"
-	"github.com/nexusriot/antiworld3/internal/utils"
+	cf "github.com/nexusriot/antiworld/internal/config"
+	"github.com/nexusriot/antiworld/internal/net"
+	"github.com/nexusriot/antiworld/internal/processor"
+	"github.com/nexusriot/antiworld/internal/utils"
 )
 
 const (
@@ -223,7 +223,7 @@ func (a *App) Start(daemonMode bool) {
 
 	p := tea.NewProgram(a.newModel(), opts...)
 	if err := p.Start(); err != nil {
-		fmt.Println("Error starting antiworld3: ", err)
+		fmt.Println("Error starting antiworld: ", err)
 		os.Exit(1)
 	}
 }

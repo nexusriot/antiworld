@@ -8,7 +8,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/proxy"
 
-	cf "github.com/nexusriot/antiworld3/internal/config"
+	cf "github.com/nexusriot/antiworld/internal/config"
 )
 
 type Net struct {

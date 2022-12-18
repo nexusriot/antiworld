@@ -12,9 +12,9 @@ import (
 	"github.com/PuerkitoBio/goquery"
 	log "github.com/sirupsen/logrus"
 
-	cf "github.com/nexusriot/antiworld3/internal/config"
-	"github.com/nexusriot/antiworld3/internal/net"
-	"github.com/nexusriot/antiworld3/internal/utils"
+	cf "github.com/nexusriot/antiworld/internal/config"
+	"github.com/nexusriot/antiworld/internal/net"
+	"github.com/nexusriot/antiworld/internal/utils"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/nexusriot/antiworld3/internal/crypto"
+	"github.com/nexusriot/antiworld/internal/crypto"
 )
 
 const (

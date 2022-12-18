@@ -1,4 +1,4 @@
-module github.com/nexusriot/antiworld3
+module github.com/nexusriot/antiworld
 
 go 1.17
 
